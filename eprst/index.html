@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Бесплатное REST API для получения случайных фраз Евгения Понасенкова">
+    <meta name="author" content="Александр Лабчук">
+    <title>Цитаты Е.П.</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="top-line">
+                <a href="/" class="logo">Evg. Pon. REST</a>
+            </div>
+            
+            <div class="bottom-line">
+                <h1>Бесплатное REST API для получения случайных фраз Евгения Понасенкова</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="inner">
+
+                <h3 class="title">
+                    Использование API
+                </h3>
+
+                <div class="section">
+
+                    <div class="row">
+                        <div class="col">
+                            <p class="demo">
+                                GET&nbsp;
+                                <a href="https://floral-band-50f9.eprst.workers.dev" target="_blank">https://floral-band-50f9.eprst.workers.dev</a>
+                            </p>
+                        </div>
+                        <div class="col buttons">
+                            <!-- <a href="http://vk.com/share.php" id="share" class="button" target="_blank"><i class="fa fa-vk"></i>Поделиться</a> -->
+                            <a href="javascript:void(0)" onclick="getQuote()" class="button"><i class="fa fa-refresh"></i>Обновить</a>
+                        </div>
+                    </div>
+
+                    <code class="code">
+                        {
+                            <div class="tab">
+                                "quote": "<span id="quote"></span>"
+                            </div>
+                        }
+                    </code>
+
+                    <p class="extra">
+                        Только текст: 
+                        <a href="https://floral-band-50f9.eprst.workers.dev?format=text" target="_blank">https://floral-band-50f9.eprst.workers.dev?format=text</a>
+                    </p>
+
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>2020 &copy; Designed by Alexander Labchuk</p>
+            <div class="social">
+                <a href="https://vk.com/sad_flex"><i class="fa fa-vk"></i></a>
+                <a href="https://www.instagram.com/sasshhhkaz"><i class="fa fa-instagram"></i></a>
+                <a href="https://github.com/unrealstuffs"><i class="fa fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -17,7 +17,12 @@
 </head>
 
 <body>
-	<header id="header" class="header section section--rev">
+
+	<div class="preloader">
+		<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	</div>
+
+	<header id="header" class="header section section--rev" data-aos="fade">
 
 		<div class="container">
 
@@ -46,9 +51,10 @@
 	
 			<div class="greeting">
 				<div class="greeting-text">
-					<h1 class="h1-like">Wir werden Sie schnell und effizient vor alltäglichen Problemen bewahren</h1>
-					<p>Wir zeigen das Ergebnis unserer harten Arbeit. Sie stellen sicher, dass
-						alles wird effizient erledigt, Sie zahlen für die Arbeit des Meisters und genießen abgeschlossene Reparaturen</p>
+					<h1 class="h1-like">Herzlich willkommen auf unserer Homepage</h1>
+					<p>Wir sind ein Dienstleister im Bereich Grünanlagenbetreuung,
+						Immobilienpflege und Winterdienst und bieten unseren
+						Kunden eine professionelle Hilfe an</p>
 					<a href="#contacts" class="button">Heuern</a>
 				</div>
 				<div class="greeting-img">
@@ -58,7 +64,7 @@
 		</div>
 
 	</header>
-<section id="hello" class="section">
+<section id="hello" class="section" data-aos="fade">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -76,12 +82,42 @@
         </div>
     </div>
 </section>
-<section id="services" class="section">
+<section id="services" class="section" data-aos="fade">
     <div class="container">
         <h2 class="h2-like">Unter Berücksichtigung Ihrer individuellen Wünsche und
             Anforderungen bieten wir Ihnen verschiedene Dienstleistungen an. </h2>
 
         <div class="services-container">
+
+            <div class="service-item">
+                <div class="service-img">
+                    <img class="img-responsive" src="images/icons/service-icon-2.svg" alt="Service">
+                </div>
+                <div class="service-text">
+                    <h3 class="h3-like">Immobilienpflege und Reinigungsservice</h3>
+                    <p>Mit unserem Reinigungsservice sind Ihre Objekte stets sauber und gepflegt</p>
+                    <ul>
+                        <li>Reinigung der Hausgänge</li>
+                        <li>Kehren von Keller</li>
+                        <li>Fassaden- und Pflasterreinigung mit Hochdruckreiniger</li>
+                        <li>Sperrgutabfuhr, Entrümpelungs- und Aufräumarbeiten</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-img">
+                    <img class="img-responsive" src="images/icons/service-icon-3.svg" alt="Service">
+                </div>
+                <div class="service-text">
+                    <h3 class="h3-like">Winterdienst</h3>
+                    <p>Wir befreien Sie von Schnee und Eis rund um die Uhr an 7 Tagen die Woche</p>
+                    <ul>
+                        <li>Schneeräumen von Hausgängen, Treppen, Parkplätzen, Tiefgarageneinfahrten</li>
+                        <li>Streudienst</li>
+                    </ul>
+                </div>
+            </div>
 
             <div class="service-item">
                 <div class="service-img">
@@ -103,39 +139,29 @@
                     </ul>
                 </div>
             </div>
+            
             <div class="service-item">
-                <div class="service-img">
-                    <img class="img-responsive" src="images/icons/service-icon-2.svg" alt="Service">
+                <div class="service-img service-img--small-icon">
+                    <img class="img-responsive" src="images/icons/service-icon-4.svg" alt="Service">
                 </div>
                 <div class="service-text">
-                    <h3 class="h3-like">Immobilienpflege und Reinigungsservice</h3>
-                    <p>Mit unserem Reinigungsservice sind Ihre Objekte stets sauber und gepflegt</p>
-                    <ul>
-                        <li>Reinigung der Hausgänge</li>
-                        <li>Kehren von Keller</li>
-                        <li>Fassaden- und Pflasterreinigung mit Hochdruckreiniger</li>
-                        <li>Sperrgutabfuhr, Entrümpelungs- und Aufräumarbeiten</li>
-                    </ul>
+                    <h3 class="h3-like">Möbel Montage</h3>
                 </div>
             </div>
+
             <div class="service-item">
-                <div class="service-img">
-                    <img class="img-responsive" src="images/icons/service-icon-3.svg" alt="Service">
+                <div class="service-img service-img--small-icon">
+                    <img class="img-responsive" src="images/icons/service-icon-5.svg" alt="Service">
                 </div>
                 <div class="service-text">
-                    <h3 class="h3-like">Winterdienst</h3>
-                    <p>Wir befreien Sie von Schnee und Eis rund um die Uhr an 7 Tagen die Woche</p>
-                    <ul>
-                        <li>Schneeräumen von Hausgängen, Treppen, Parkplätzen, Tiefgarageneinfahrten</li>
-                        <li>Streudienst</li>
-                    </ul>
+                    <h3 class="h3-like">Kleintransporte</h3>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
-<section class="section" id="gallery">
+<section class="section" id="gallery" data-aos="fade">
     <div class="container">
         <h2 class="h2-like">Wir führen Haushaltsarbeiten beliebiger Komplexität durch</h2>
         <div class="swiper-button-prev gallery-prev"></div>
@@ -161,7 +187,7 @@
 
     </div>
 </section>
-<section class="section section--rev" id="process">
+<section class="section section--rev" id="process" data-aos="fade">
     <div class="container">
         <h2 class="h2-like">Der Prozess der Arbeit mit uns ist einfacher als es scheint</h2>
 
@@ -185,7 +211,7 @@
         </div>
     </div>
 </section>
-<section class="section" id="reviews">
+<section class="section" id="reviews" data-aos="fade">
     <div class="container">
         <h2 class="h2-like">Bewertungen</h2>
         <p class="subheading">über unsere Spezialisten</p>
@@ -220,7 +246,7 @@
         <div class="swiper-pagination reviews-pagination"></div>
     </div>
 </section>
-<section class="section section--rev" id="contacts">
+<section class="section section--rev" id="contacts" data-aos="fade">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
@@ -256,11 +282,11 @@
         <div class="contacts-list">
             <div class="contact">
                 <img src="images/icons/footer-phone.svg" alt="Icon">
-                <h3 class="h3-like">+49 17641683089</h3>
+                <a href="tel: +49 17641683089" class="h3-like">+49 17641683089</a>
             </div>
             <div class="contact">
                 <img src="images/icons/footer-cloud.svg" alt="Icon">
-                <h3 class="h3-like">hausmeister_jos@yahoo.com</h3>
+                <a href="mailto: hausmeister_jos@yahoo.com" class="h3-like">hausmeister_jos@yahoo.com</a>
             </div>
             <div class="contact">
                 <img src="images/icons/footer-pin.svg" alt="Icon">
@@ -269,27 +295,26 @@
         </div>
     </div>
 </section>
-<section class="section" id="wish">
+<section class="section" data-aos="fade" id="wish">
     <div class="container">
-        <!-- <span class="quote">“</span> -->
         <h2 class="h1-like">
             Ich helfe dir gerne weiter
         </h2>
-        <!-- <span class="quote">“</span> -->
     </div>
 </section>
 
-<footer class="footer">
+<footer class="footer" data-aos="fade">
 	<div class="container">
 		<p class="subheading">Kontaktadresse</p>
+		<p>Schaier Oleg</p>
 		<p>JOS Hausmeister Service</p>
 		<p>Richard-Strauß-Straße 13 </p>
 		<p>83395 Freilassing</p>
 	
 		<div class="footer-links">
-			<p>Tel: + 49 176 416 830 89</p>
-			<p>www.jos.com</p>
-			<p>Tel: + 49 176 416 830 89 </p>
+			<a href="tel: + 49 176 416 830 89">Tel: + 49 176 416 830 89</a>
+			<a href="http://www.jos.com">www.jos.com</a>
+			<a href="mailto:  hausmeister_jos@yahoo.com">hausmeister_jos@yahoo.com</a>
 		</div>
 	</div>
 </footer>

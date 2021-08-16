@@ -1,23 +1,24 @@
-<svg width="115" height="115" viewBox="0 0 115 115" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="115" height="115" rx="57.5" fill="#B1E4DD"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M30.9665 14.4473C16.545 23.3542 6.93468 39.3048 6.93468 57.5C6.93468 76.0958 16.9727 92.347 31.9258 101.131H45.6533V14.4473H30.9665Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M105.884 72.2361C102.158 84.4876 93.9055 94.7681 83.0743 101.131H48.5427V72.2361H105.884Z" fill="white"/>
-<rect x="48.5427" y="27.1608" width="23.6935" height="26.5829" fill="white"/>
-<rect x="75.1256" y="27.1608" width="23.6935" height="26.5829" fill="white"/>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" fill="white"/>
+<rect x="27" y="20" width="160" height="160" rx="80" fill="#B1E4DD"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M70.0839 40.1006C50.0191 52.4929 36.6483 74.685 36.6483 100C36.6483 125.872 50.6142 148.483 71.4186 160.704H90.5176V40.1006H70.0839Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M174.318 120.502C169.133 137.548 157.651 151.851 142.582 160.703H94.5377V120.502H174.318Z" fill="white"/>
+<rect x="94.5377" y="57.7889" width="32.9648" height="36.9849" fill="white"/>
+<rect x="131.523" y="57.7889" width="32.9648" height="36.9849" fill="white"/>
 <g filter="url(#filter0_bii)">
-<rect x="80.9045" y="13.2915" width="30.6281" height="34.6734" rx="5" fill="white" fill-opacity="0.03"/>
+<rect x="139.563" y="38.4924" width="42.6131" height="48.2412" rx="5" fill="white" fill-opacity="0.03"/>
 </g>
 <g filter="url(#filter1_bii)">
-<rect x="54.3216" y="23.1156" width="21.9598" height="24.8492" rx="5" fill="white" fill-opacity="0.03"/>
+<rect x="102.578" y="52.1609" width="30.5528" height="34.5729" rx="5" fill="white" fill-opacity="0.03"/>
 </g>
 <g filter="url(#filter2_bii)">
-<rect x="54.3216" y="60.6785" width="11.5578" height="11.5578" rx="5.77889" fill="white" fill-opacity="0.03"/>
+<rect x="102.578" y="104.422" width="16.0804" height="16.0804" rx="8.0402" fill="white" fill-opacity="0.03"/>
 </g>
 <g filter="url(#filter3_bii)">
-<path d="M68.191 66.4573H79.7487C79.7487 69.6489 77.1614 72.2362 73.9699 72.2362C70.7783 72.2362 68.191 69.6489 68.191 66.4573Z" fill="white" fill-opacity="0.03"/>
+<path d="M121.874 112.462H137.955C137.955 116.903 134.355 120.503 129.915 120.503C125.474 120.503 121.874 116.903 121.874 112.462Z" fill="white" fill-opacity="0.03"/>
 </g>
 <defs>
-<filter id="filter0_bii" x="72.9045" y="5.2915" width="46.6281" height="50.6734" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_bii" x="131.563" y="30.4924" width="58.6131" height="64.2412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="4"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
@@ -35,7 +36,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/>
 <feBlend mode="normal" in2="effect2_innerShadow" result="effect3_innerShadow"/>
 </filter>
-<filter id="filter1_bii" x="49.3216" y="18.1156" width="31.9598" height="34.8492" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_bii" x="97.5779" y="47.1609" width="40.5528" height="44.5729" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="2.5"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
@@ -53,7 +54,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/>
 <feBlend mode="normal" in2="effect2_innerShadow" result="effect3_innerShadow"/>
 </filter>
-<filter id="filter2_bii" x="49.3216" y="55.6785" width="21.5578" height="21.5578" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter2_bii" x="97.5779" y="99.4221" width="26.0804" height="26.0804" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="2.5"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
@@ -71,7 +72,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.7 0"/>
 <feBlend mode="normal" in2="effect2_innerShadow" result="effect3_innerShadow"/>
 </filter>
-<filter id="filter3_bii" x="63.191" y="61.4573" width="21.5578" height="15.7789" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter3_bii" x="116.874" y="107.462" width="26.0804" height="18.0402" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feGaussianBlur in="BackgroundImage" stdDeviation="2.5"/>
 <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
